@@ -11589,11 +11589,12 @@ html {
 }
 .profile .profile-img {
   height: 80vw;
-  max-height: 45rem;
+  max-height: 25rem; /*Samchange size here manually from 80vw */
   position: absolute;
-  bottom: 0;
+  bottom: 10%; /*Samchange size here manually (0) */
   left: 50%;
   transform: translateX(-50%);
+  width: 30vw; /*Samchange size here manually from 50vw */
 }
 .profile .dots-1 {
   position: absolute;
